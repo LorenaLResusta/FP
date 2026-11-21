@@ -3,78 +3,69 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LorenaLResusta FP</title>
+<title>Inicio · LorenaLResusta FP</title>
+<meta name="description" content="Portal de apuntes de Formación Profesional de Informática por ciclos y asignaturas.">
 <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-<nav>
-<div class="menu">
-<a href="index.html">Inicio</a>
-<a href="recursos.html">Recursos</a>
-<a href="dam.html">DAM</a>
-<a href="daw.html">DAW</a>
-<a href="asir.html">ASIR</a>
-<a href="ciber.html">Ciberseguridad</a>
-<a href="cloud.html">Cloud</a>
-<a href="devops.html">DevOps</a>
-</div>
+<nav class="menu" aria-label="Principal">
+  <a class="marca" href="index.html">LorenaLResusta <b>FP</b></a>
+  <div class="enlaces">
+    <a href="index.html" aria-current="page">Inicio</a>
+    <a href="asir.html">ASIR</a>
+    <a href="dam.html">DAM</a>
+    <a href="daw.html">DAW</a>
+    <a href="especializacion.html">Especialización</a>
+    <a href="master.html">Máster</a>
+    <a href="conceptos.html">Relación entre asignaturas</a>
+  </div>
 </nav>
-
-<header>
-<h1>LorenaLResusta FP</h1>
-<p class="subtitle">
-Portal de DAM, DAW, ASIR y Cursos de Especialización
-</p>
+<header class="portada">
+  <h1>Formación Profesional de Informática</h1>
+  <p>Apuntes, prácticas y recursos organizados por <b>ciclo</b> y por <b>asignatura</b>.</p>
 </header>
-
-<div class="container">
-
-<div class="grid">
-
-<a class="card" href="dam.html">
-<h3>💻 DAM</h3>
-<p>Desarrollo de Aplicaciones Multiplataforma</p>
-</a>
-
-<a class="card" href="daw.html">
-<h3>🌐 DAW</h3>
-<p>Desarrollo de Aplicaciones Web</p>
-</a>
-
-<a class="card" href="asir.html">
-<h3>🖥️ ASIR</h3>
-<p>Administración de Sistemas Informáticos en Red</p>
-</a>
-
-<a class="card" href="ciber.html">
-<h3>🛡️ Ciberseguridad</h3>
-<p>Curso de Especialización</p>
-</a>
-
-<a class="card" href="cloud.html">
-<h3>☁️ Recursos en la Nube</h3>
-<p>Cloud Computing e IA</p>
-</a>
-
-<a class="card" href="devops.html">
-<h3>🐳 Contenedores</h3>
-<p>Docker, Kubernetes y DevOps</p>
-</a>
-
-<a class="card" href="recursos.html">
-<h3>📚 Recursos</h3>
-<p>Buscador de materiales</p>
-</a>
-
-</div>
-
-</div>
-
+<main>
+  <section class="rejilla" aria-label="Ciclos">
+    <a class="ciclo" href="asir.html" style="--c:#2f6fb2">
+      <span class="icono" aria-hidden="true">🖥️</span>
+      <h2>ASIR</h2>
+      <p class="nombre">Administración de Sistemas Informáticos en Red</p>
+      <p class="tipo">Ciclo de grado superior · 3 asignaturas</p>
+    </a>
+    <a class="ciclo" href="dam.html" style="--c:#8a4fb8">
+      <span class="icono" aria-hidden="true">💻</span>
+      <h2>DAM</h2>
+      <p class="nombre">Desarrollo de Aplicaciones Multiplataforma</p>
+      <p class="tipo">Ciclo de grado superior · 2 asignaturas</p>
+    </a>
+    <a class="ciclo" href="daw.html" style="--c:#c46a1b">
+      <span class="icono" aria-hidden="true">🌐</span>
+      <h2>DAW</h2>
+      <p class="nombre">Desarrollo de Aplicaciones Web</p>
+      <p class="tipo">Ciclo de grado superior · 2 asignaturas</p>
+    </a>
+    <a class="ciclo" href="especializacion.html" style="--c:#1f8a70">
+      <span class="icono" aria-hidden="true">🐳</span>
+      <h2>Especialización</h2>
+      <p class="nombre">Cursos de especialización de FP</p>
+      <p class="tipo">Grado superior · tras ASIR, DAM o DAW · 3 asignaturas</p>
+    </a>
+    <a class="ciclo" href="master.html" style="--c:#6b6b6b">
+      <span class="icono" aria-hidden="true">🎓</span>
+      <h2>Máster</h2>
+      <p class="nombre">Máster de Profesorado de Secundaria</p>
+      <p class="tipo">Especialidad de Informática · Universidad de Alicante · 1 asignatura</p>
+    </a>
+  </section>
+  <section class="aviso">
+    <h2>Conceptos que conectan las asignaturas</h2>
+    <p>Las copias de seguridad, la monitorización o el almacenamiento aparecen en varias asignaturas desde ángulos distintos.
+    La página <a href="conceptos.html">Relación entre asignaturas</a> enlaza cada concepto con el apartado donde se trabaja en cada una.</p>
+  </section>
+</main>
 <footer>
-© Lorena López Resusta
+  <p>© Lorena López Resusta · Materiales de Formación Profesional de Informática · Curso 2026/27</p>
+  <p><a href="https://github.com/LorenaLResusta">github.com/LorenaLResusta</a></p>
 </footer>
-
 </body>
 </html>

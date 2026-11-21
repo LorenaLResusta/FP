@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relación entre asignaturas · LorenaLResusta FP</title>
+<meta name="description" content="Conceptos que se trabajan en varias asignaturas, con enlaces a cada una.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="menu" aria-label="Principal">
+  <a class="marca" href="index.html">LorenaLResusta <b>FP</b></a>
+  <div class="enlaces">
+    <a href="index.html">Inicio</a>
+    <a href="asir.html">ASIR</a>
+    <a href="dam.html">DAM</a>
+    <a href="daw.html">DAW</a>
+    <a href="especializacion.html">Especialización</a>
+    <a href="master.html">Máster</a>
+    <a href="conceptos.html" aria-current="page">Relación entre asignaturas</a>
+  </div>
+</nav>
+<header class="portada">
+  <p class="migas"><a href="index.html">Inicio</a> › Relación entre asignaturas</p>
+  <h1>Relación entre asignaturas</h1>
+  <p>Cada concepto, en el orden en que se suele aprender: de los ciclos a los cursos de especialización.</p>
+</header>
+<main>
+  <section class="concepto" id="bases-de-datos-relacionales-y-sql">
+    <h2>Bases de datos relacionales y SQL</h2>
+    <p>Se diseñan y consultan en los ciclos; en la nube se administran y en contenedores se mantienen en producción.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/GBD/"><b>Gestión de bases de datos</b><span>Temas 1-5</span></a></li><li><a href="https://lorenalresusta.github.io/BBDD/"><b>Bases de datos</b><span>UD01-UD07</span></a></li><li><a href="https://lorenalresusta.github.io/BBDD-Nube/ud04-bases-datos/"><b>Administración de bases de datos y almacenamiento en la nube</b><span>UD04 · Bases de datos administradas</span></a></li><li><a href="https://lorenalresusta.github.io/Despliegue-Contenedores/ud03-kubernetes/ud03-teoria/#62-statefulset"><b>Despliegue de plataformas de ejecución de contenedores</b><span>UD03 · PostgreSQL como StatefulSet</span></a></li></ol>
+  </section>
+  <section class="concepto" id="copias-de-seguridad-y-recuperacion">
+    <h2>Copias de seguridad y recuperación</h2>
+    <p>De la copia de una base de datos a la política 3-2-1 de un servicio en producción.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/GBD/tema6-aseguramiento/"><b>Gestión de bases de datos</b><span>Tema 6 · Aseguramiento</span></a></li><li><a href="https://lorenalresusta.github.io/Seguridad-y-Alta-Disponibilidad/ud02/"><b>Seguridad y alta disponibilidad</b><span>UD02 · Seguridad pasiva y copias</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud04-backup-actualizaciones/ud04-teoria/#1-rpo-rto-y-política-de-copias"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD04 · RPO, RTO, pg_dump y Velero</span></a></li></ol>
+  </section>
+  <section class="concepto" id="almacenamiento-de-objetos-s3">
+    <h2>Almacenamiento de objetos (S3)</h2>
+    <p>El almacén donde se guardan copias, registros y datos en la nube.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/BBDD-Nube/ud02-almacenamiento-objetos/"><b>Administración de bases de datos y almacenamiento en la nube</b><span>UD02 · Almacenamiento de objetos</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud04-backup-actualizaciones/ud04-teoria/#4-el-medio-externo-almacenamiento-de-objetos"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD04 · Copias en Garage</span></a></li></ol>
+  </section>
+  <section class="concepto" id="volumenes-bloques-y-ficheros">
+    <h2>Volúmenes, bloques y ficheros</h2>
+    <p>Dónde viven los datos persistentes y qué pasa con ellos al borrar.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/BBDD-Nube/ud03-bloques-ficheros/"><b>Administración de bases de datos y almacenamiento en la nube</b><span>UD03 · Bloques y ficheros en red</span></a></li><li><a href="https://lorenalresusta.github.io/Despliegue-Contenedores/ud04-redes-almacenamiento/ud04-teoria/#6-almacenamiento-en-kubernetes"><b>Despliegue de plataformas de ejecución de contenedores</b><span>UD04 · PV, PVC y StorageClass</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud05-terminacion/ud05-teoria/#2-lo-que-sobrevive-a-kubectl-delete"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD05 · Lo que sobrevive a un borrado</span></a></li></ol>
+  </section>
+  <section class="concepto" id="criptografia-y-borrado-seguro">
+    <h2>Criptografía y borrado seguro</h2>
+    <p>Cifrar para proteger y destruir la clave para borrar.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/Seguridad-y-Alta-Disponibilidad/ud03/"><b>Seguridad y alta disponibilidad</b><span>UD03 · Criptografía</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud05-terminacion/ud05-teoria/#4-borrado-seguro-y-sus-límites"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD05 · Borrado seguro y criptográfico</span></a></li></ol>
+  </section>
+  <section class="concepto" id="fortificacion-y-control-de-acceso">
+    <h2>Fortificación y control de acceso</h2>
+    <p>Mínimo privilegio en el sistema operativo, en el contenedor y en el clúster.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/Seguridad-y-Alta-Disponibilidad/ud04/"><b>Seguridad y alta disponibilidad</b><span>UD04 · Fortificación de hosts</span></a></li><li><a href="https://lorenalresusta.github.io/Despliegue-Contenedores/ud05-seguridad-monitorizacion/ud05-teoria/#3-endurecimiento-de-contenedores"><b>Despliegue de plataformas de ejecución de contenedores</b><span>UD05 · Endurecimiento y RBAC</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud03-extraccion-datos/ud03-teoria/#4-accesos-al-sistema"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD03 · Accesos fallidos y fail2ban</span></a></li></ol>
+  </section>
+  <section class="concepto" id="monitorizacion-deteccion-y-respuesta">
+    <h2>Monitorización, detección y respuesta</h2>
+    <p>Observar el sistema, detectar lo anormal y actuar.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/Seguridad-y-Alta-Disponibilidad/ud05/"><b>Seguridad y alta disponibilidad</b><span>UD05 · Monitorización y detección</span></a></li><li><a href="https://lorenalresusta.github.io/Despliegue-Contenedores/ud05-seguridad-monitorizacion/ud05-teoria/#8-observabilidad"><b>Despliegue de plataformas de ejecución de contenedores</b><span>UD05 · Observabilidad</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud01-monitorizacion-alarmas/ud01-teoria/"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD01 · Prometheus y Alertmanager</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud03-extraccion-datos/ud03-teoria/"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD03 · Registros con Loki</span></a></li></ol>
+  </section>
+  <section class="concepto" id="cortafuegos-y-segmentacion-de-red">
+    <h2>Cortafuegos y segmentación de red</h2>
+    <p>Del cortafuegos perimetral a las políticas de red entre contenedores.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/Seguridad-y-Alta-Disponibilidad/ud06/"><b>Seguridad y alta disponibilidad</b><span>UD06 · Seguridad perimetral</span></a></li><li><a href="https://lorenalresusta.github.io/Despliegue-Contenedores/ud05-seguridad-monitorizacion/ud05-teoria/#6-políticas-de-red"><b>Despliegue de plataformas de ejecución de contenedores</b><span>UD05 · NetworkPolicy</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud01-monitorizacion-alarmas/ud01-teoria/#7-seguridad-de-la-monitorización"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD01 · Proteger la monitorización</span></a></li></ol>
+  </section>
+  <section class="concepto" id="virtualizacion-y-alta-disponibilidad">
+    <h2>Virtualización y alta disponibilidad</h2>
+    <p>Máquinas virtuales, contenedores y réplicas para que el servicio no se detenga.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/Seguridad-y-Alta-Disponibilidad/ud07/"><b>Seguridad y alta disponibilidad</b><span>UD07 · Alta disponibilidad y continuidad</span></a></li><li><a href="https://lorenalresusta.github.io/Despliegue-Contenedores/ud01-virtualizacion-ligera/ud01-teoria/#2-tipos-de-virtualización"><b>Despliegue de plataformas de ejecución de contenedores</b><span>UD01 · Tipos de virtualización</span></a></li><li><a href="https://lorenalresusta.github.io/Despliegue-Contenedores/ud05-seguridad-monitorizacion/ud05-teoria/#9-alta-disponibilidad-y-tolerancia-a-fallos"><b>Despliegue de plataformas de ejecución de contenedores</b><span>UD05 · Alta disponibilidad</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud02-validacion-sistema/ud02-teoria/#3-del-acuerdo-de-nivel-de-servicio-a-los-indicadores"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD02 · SLA, SLO y disponibilidad</span></a></li></ol>
+  </section>
+  <section class="concepto" id="riesgos-marco-legal-y-proteccion-de-datos">
+    <h2>Riesgos, marco legal y protección de datos</h2>
+    <p>Qué obliga la ley y cómo se cumple al operar y al dar de baja un servicio.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/Seguridad-y-Alta-Disponibilidad/ud01/"><b>Seguridad y alta disponibilidad</b><span>UD01 · Riesgos y marco legal</span></a></li><li><a href="https://lorenalresusta.github.io/Mantenimiento-Contenedores/ud05-terminacion/ud05-teoria/#3-borrar-datos-personales-en-una-base-de-datos"><b>Mantenimiento del sistema de contenedores desplegado</b><span>UD05 · Borrado de datos personales</span></a></li></ol>
+  </section>
+  <section class="concepto" id="nube-e-infraestructura-hibrida">
+    <h2>Nube e infraestructura híbrida</h2>
+    <p>Servicios gestionados y su combinación con la infraestructura propia.</p>
+    <ol class="recorrido"><li><a href="https://lorenalresusta.github.io/BBDD-Nube/ud06-nube-hibrida/"><b>Administración de bases de datos y almacenamiento en la nube</b><span>UD06 · Nube híbrida</span></a></li><li><a href="https://lorenalresusta.github.io/Digitalizacion/"><b>Digitalización aplicada a los sectores productivos</b><span>Tecnologías habilitadoras</span></a></li></ol>
+  </section>
+</main>
+<footer>
+  <p>© Lorena López Resusta · Materiales de Formación Profesional de Informática · Curso 2026/27</p>
+  <p><a href="https://github.com/LorenaLResusta">github.com/LorenaLResusta</a></p>
+</footer>
+</body>
+</html>
